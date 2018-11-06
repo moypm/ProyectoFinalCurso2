@@ -3,36 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Proyecto final de Curso 2 Desarrollo Web</title>
   </head>
   <body>
+    <div class="contenedorppal">
     <!-- Cabecera de la página principal -->
-      <header id="encabezado">
-        <h1>
-            Comenzando con la fotografía
-        </h1>
+      <header>
+        <nav class="encabezado">
+          <h1>
+              Comenzando con la fotografía
+          </h1>
+        </nav>
       <!-- Barra de navegación donde muestr a las opciones a las página que se puede acceder -->
-        <navbar>
-          <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="paisajes.html">Paisajes</a></li>
-              <li><a href="retratos.html">Retratos</a></li>
-          </ul>
-        </navbar>
+        <nav class="menu">
+          <a href="index.html">Inicio</a>
+          <a href="paisajes.html">Paisajes</a>
+          <a href="retratos.html">Retratos</a>
+        </nav>
     </header>
       <!-- Empieza la parte de la sección que muestra la información -->
-      <div class="imgcentral">
-        <img src="imagen/imagen1.jpg" alt="imagen central" width="90%" height="90%">
-      </div>
-      <div class="imgsecundaria">
-            <div class="imgizquierda">
-            </div>
-            <div class="imgderecha">
-            </div>
-      </div>
+      <section class="imgcentral">
+        <img src="imagen/imagen1.jpg" class="imagen1inicio">
+      </section>
+      <section class="imgsecundaria">
+        <div class="imgizquierda">
+        </div>
+        <div class="imgderecha">
+        </div>
+      </section>
       <!-- Empieza la parte del pie de pa´gina que se repite en todas las página del trabajo -->
-      <footer id="piepagina">
+      <footer>
+        <div class="columcontact">
+          <h2>Contacto</h2>
+          <p>Moisés Pelayo</p>
+          <p>Cursante Desarrollador Web</p>
+        </div>
+        <div class="columterminos">
+          <h2>Terminos</h2>
+          <p>Acepto terminos y condiciones</p>
+        </div>
+        <div class="columredes">
+          <h2>Redes sociales</h2>
+          <p>Facebook</p>
+          <p>Twitter</p>
+        </div>
+        <div class="columderechos">
+          <h2>Derechos</h2>
+          <p>Copyright © 2018</p>
+          <p>Moisés Pelayo... Derechos Reservados</p>
+        </div>
+
       </footer>
+    </div>  <!-- fin del contenedorppal -->
   </body>
 </html>
