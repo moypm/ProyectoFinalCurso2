@@ -3,30 +3,48 @@
   background-color: #82c3a6;
   text-align: center;
   vertical-align: middle;
+  padding: 5% 0 5%;
 }
-
+/* propiedades  de la imagen unica centrada */
 .imagen1inicio{
   width: 60%;
   height: 60%;
   box-shadow: 2px 2px 2px  #02010a;
 }
-
+/* contenedor secundario para las dos imagenes que lleva */
 .imgsecundaria{
   background-color:#d5c75f;
-  border: 1px;
 }
 /* imagenes secundarias */
 .imagen2inicio,.imagen3inicio{
   width: 75%;
   height: 80%;
   box-shadow: 2px 2px 2px  #02010a;
+  border: 2px solid;
 }
-/*efectos de rotar y trasladar*/
+/* contenedor de las dos imagenes de la pagina ppal */
+.contenedor2{
+  display: flex;
+  flex-direction:row;
+  text-align: center;
+  color: black;
+  padding:50px 0 40px 0;
+}
+/*efectos de rotar y trasladar al momento de poner el mouse encima*/
 .imagen2inicio:hover{
   transform: rotate(10deg);
+  border: 0px;
   box-shadow: 2px 2px 2px #82c3a6;
 }
 .imagen3inicio:hover{
   transform: translate(20px,-5px);
+  border: 0px;
   box-shadow: 2px 2px 2px #82c3a6;
+}
+/*media queries*/
+@media (max-width:600px) {
+  .contenedor2{
+    display: flex;
+    flex-direction:column;
+  }
 }
