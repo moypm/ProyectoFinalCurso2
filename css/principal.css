@@ -4,7 +4,6 @@ html,body{
   background-color: #02010a;
   font-family:'Dancing Script';
   color: white;
-/*  text-align: center;*/
 }
 /* contenedor piincipal */
 .contenido{
@@ -27,6 +26,7 @@ header a,header a:visited,header a:link{
 .encabezado,.menu{
   margin: auto;
 }
+/* La opción seleccionada le quita el subrayado del menú*/
 .seleccion{
   text-decoration: none;
 }
@@ -42,6 +42,8 @@ footer{
   display: flex;
   flex-direction: row;
   border-radius: 0 0 10px 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 /*media para celulares*/
 @media (max-width:900px) {

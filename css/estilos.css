@@ -8,7 +8,7 @@
 /* propiedades  de la imagen unica centrada */
 .imagen1inicio{
   width: 60%;
-  height: 60%;
+  height: 200px;
   box-shadow: 2px 2px 2px  #02010a;
 }
 /* contenedor secundario para las dos imagenes que lleva */
@@ -20,7 +20,6 @@
   width: 75%;
   height: 80%;
   box-shadow: 2px 2px 2px  #02010a;
-  border: 2px solid;
 }
 /* contenedor de las dos imagenes de la pagina ppal */
 .contenedor2{

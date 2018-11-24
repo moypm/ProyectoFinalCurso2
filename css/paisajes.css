@@ -19,8 +19,10 @@ section{
 .segundo{
   padding: 50px 0 50px 0;
 }
+/* Con esto todas las imagenes tendrán una sombra de 2px con ese color definido*/
 img{
   margin: auto;
+  box-shadow: 2px 2px 2px  #02010a;
 }
 /* los efectos de las fotos*/
 .blur{
